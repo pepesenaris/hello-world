@@ -1,0 +1,16 @@
+.Box-wrapper {
+  padding: 20px;
+  margin: 20px;
+}
+
+.Box-header {
+  font-weight: bold;
+  font-size: 18px;
+  padding: 10px;
+}
+
+.Box-section {
+  font-size: 14px;
+  text-align: center;
+  padding: 5px;
+}
