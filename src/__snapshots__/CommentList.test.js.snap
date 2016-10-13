@@ -1,0 +1,16 @@
+exports[`test it renders a list of comments 1`] = `
+<div>
+  <article>
+    Comment 1
+  </article>
+  <article>
+    Comment 2
+  </article>
+</div>
+`;
+
+exports[`test it renders message when no comments 1`] = `
+<div>
+  No comments for today
+</div>
+`;
