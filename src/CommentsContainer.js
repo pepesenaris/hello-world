@@ -24,6 +24,12 @@ class CommentsContainer extends Component {
         [id]: { id, text }
       }
     })
+    /*
+      Calling setState schedules a re-render of the component.
+      React may batch multiple calls to setState and perform a single render,
+      so it's not safe to assume that exist a one-to-one mapping
+      between setState() and render() calls
+    */
   }
 
   render() {
